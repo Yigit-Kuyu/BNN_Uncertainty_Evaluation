@@ -53,3 +53,7 @@ ECE measures the difference between predicted confidence and actual accuracy. It
 The results for each inference method, including the time taken, MSE, AUROC, and ECE, are printed to the console and plotted as graphs showing the predictions with uncertainty.
 
 ## Example Output
+
+![text](Output1.JPG)  
+
+![text](Output2.JPG)  
