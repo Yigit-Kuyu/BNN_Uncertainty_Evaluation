@@ -24,11 +24,11 @@
 
 ### 1. Variational Inference (VI)
 
-Variational Inference approximates the posterior distribution by optimizing a family of distributions to minimize the Kullback-Leibler (KL) divergence from the true posterior. In this code, we use the `AutoNormal` guide from Pyro for automatic variational inference.
+Variational Inference approximates the posterior distribution by optimizing a family of distributions to minimize the Kullback-Leibler (KL) divergence from the true posterior. In this code, I use the `AutoNormal` guide from Pyro for automatic variational inference.
 
 ### 2. Markov Chain Monte Carlo (MCMC)
 
-MCMC methods sample from the posterior distribution by constructing a Markov chain that has the desired distribution as its equilibrium distribution. We use the No-U-Turn Sampler (NUTS), a variant of Hamiltonian Monte Carlo (HMC), for efficient sampling.
+MCMC methods sample from the posterior distribution by constructing a Markov chain that has the desired distribution as its equilibrium distribution. I use the No-U-Turn Sampler (NUTS), a variant of Hamiltonian Monte Carlo (HMC), for efficient sampling.
 
 ### 3. Bayes by Backpropagation (BBB)
 
