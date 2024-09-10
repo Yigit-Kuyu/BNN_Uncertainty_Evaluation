@@ -1,5 +1,3 @@
-# BNN_Uncertainty_Evaluation
-
 ### Running the Code
 
 1. **Generate and Save Data:**
